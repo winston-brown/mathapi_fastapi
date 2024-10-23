@@ -13,7 +13,7 @@ MathAPI is a simple FastAPI application that calculates the average of a list of
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
+   git clone [https://github.com/winston-brown/mathapi_fastapi](https://github.com/winston-brown/mathapi_fastapi)
    cd MathAPI
    ```
 
