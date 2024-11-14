@@ -1,9 +1,9 @@
 from typing import List
 from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel, conlist
+from pydantic import BaseModel, Field
 
 class NumbersRequest(BaseModel):
-    numbers: conlist(float, min_length=1, max_length=100)
+    numbers: List[float] = Field(min_length=1, max_length=100)
 
 app = FastAPI()
 
